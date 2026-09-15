@@ -1,0 +1,58 @@
+/*   
+  Tipos de format()
+  - opentype (otf)
+  - truetype (ttf)
+  - embemdded-opentype
+  truetype-att (Apple Advanced Typography)
+  - svg
+*/
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eeeeee;
+  background-image: url('../images/fundo.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+header {
+  background-color: #e8112d;
+  border-bottom: 4px solid black;
+  position: relative;
+  height: 120px;
+}
+
+.bandeira {
+  position: absolute;
+  top: 0;
+  left: 15px;
+  margin: 10px;
+  height: 170px;
+}
+
+header h1 {
+  font-family: Roboto, sans-serif;
+  padding-top: 35px;
+  margin-left: 300px;
+}
+
+main {
+  padding: 70px 30px 30px;
+}
+
+ul#ul-li {
+  display: block;
+  background-color: white;
+  border: 2px solid black;
+  columns: 2;
+  /*min-width: 165px;*/
+}
+ul > li {
+  padding: 2px;
+  margin: 4px;
+}
